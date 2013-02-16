@@ -7,6 +7,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<jsp:useBean id="profil" scope="session" class="gestion_profil.Profil"/>
+		<%
+			out.println(profil.getNom());
+			out.println(profil.getPrenom());
+			out.println(profil.getAddr());
+			out.println(profil.getAnneeNaissance());
+			out.println(profil.getMail());
+		%>
 </body>
 </html>
