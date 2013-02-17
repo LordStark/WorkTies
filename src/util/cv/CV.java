@@ -1,6 +1,7 @@
-package util;
+package util.cv;
 
 /**
+ * Stocke les données relatives au CV. Est utilisée pour la génération de CV.
  * @author Millambeur
  */
 public class CV {
@@ -14,6 +15,14 @@ public class CV {
 	
 	
 	/* ----- Constructeur ----- */
+	/**
+	 * Constructeur avec paramètres de la classe CV.
+	 * @param titre
+	 * @param etudes
+	 * @param experiences
+	 * @param loisirs
+	 * @param connaissancesParticulieres
+	 */
 	public CV(String titre, String[] etudes, String[] experiences,
 			String[] loisirs, String[] connaissancesParticulieres) {
 		super();

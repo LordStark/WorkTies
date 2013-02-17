@@ -1,5 +1,7 @@
 package util;
 
+import util.cv.CV;
+
 public class User {
 	
 	/*----attributs-------*/
