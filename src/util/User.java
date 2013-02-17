@@ -8,7 +8,7 @@ public class User {
 	private String adrMail;
 	private String motDePasse;
 	private String poste;
-	private String cv;
+	private CV cv;
 	
 	/*---get & set---*/
 	public String getNom() {
@@ -41,10 +41,10 @@ public class User {
 	public void setPoste(String poste) {
 		this.poste = poste;
 	}
-	public String getCv() {
+	public CV getCv() {
 		return cv;
 	}
-	public void setCv(String cv) {
+	public void setCv(CV cv) {
 		this.cv = cv;
 	}
 
