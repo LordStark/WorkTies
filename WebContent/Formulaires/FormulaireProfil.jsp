@@ -11,7 +11,7 @@
 <title>Créez votre profil! </title>
 </head>
 <body>
-	<%@ include file = "Head.html" %>
+	<%@ include file = "../Cadre/Head.html" %>
 	<div id="body_content">
 		<form id="form_creer_profil" action="GestionProfil.jsp" method="GET">
 			<div class="champs">  Votre nom : </div><input type="text" name="nom" id="nom" /></br>
