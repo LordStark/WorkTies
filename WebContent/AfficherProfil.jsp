@@ -4,12 +4,15 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<link rel=stylesheet href="Head.css" type="text/css" />
+<link rel=stylesheet href="bootstrap.css" type="text/css" />
+<link rel=stylesheet href="Main.css" type="text/css" />
+<link rel=stylesheet href="Creer_profil.css" type="text/css" />
+<title>Créez votre profil! </title>
 </head>
 <body>
+	<%@ include file = "Head.html" %>
 	<jsp:useBean id="profil" scope="session" class="gestion_profil.Profil"/>
-		<%
-			out.println(profil.getNom());
-		%>
+			<%=profil.getUtilisateur().getNom()%>
 </body>
 </html>

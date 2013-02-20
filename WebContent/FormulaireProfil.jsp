@@ -5,21 +5,24 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link rel=stylesheet href="Head.css" type="text/css" />
-<link rel=stylesheet href="boostrap.css" type="text/css" />
+<link rel=stylesheet href="bootstrap.css" type="text/css" />
+<link rel=stylesheet href="Main.css" type="text/css" />
+<link rel=stylesheet href="Creer_profil.css" type="text/css" />
 <title>Créez votre profil! </title>
 </head>
 <body>
 	<%@ include file = "Head.html" %>
-	<form action="GestionProfil.jsp" method="GET">
-		Votre nom : <input type="text" name="nom" id="nom" /></br>
-		Votre prénom: <input type="text" name="prenom" id="prenom" /></br>
-		Votre adresse : <input type="text" name="adresse" id="adresse" /></br>
-		Votre année de naissance : <input type="text" name="anneeNaiss" id="anneeNaiss" /></br>
-		Votre adresse mail : <input type="text" name="mail" id="mail" /></br> 
-		Choisissez un mot de passe :  <input type="text" name="mdp" id="mdp" /></br>
-		<input name="submit" type="submit" value="bouiachaka"/>
-	</form>
-	
+	<div id="body_content">
+		<form id="form_creer_profil" action="GestionProfil.jsp" method="GET">
+			<div class="champs">  Votre nom : </div><input type="text" name="nom" id="nom" /></br>
+			<div class="champs">Votre prénom: </div><input type="text" name="prenom" id="prenom" /></br>
+			<div class="champs">Votre adresse : </div><input type="text" name="adresse" id="adresse" /></br>
+			<div class="champs">Votre année de naissance : </div><input type="text" name="anneeNaiss" id="anneeNaiss" /></br>
+			<div class="champs">Votre adresse mail : </div><input type="text" name="mail" id="mail" /></br> 
+			<div class="champs">Choisissez un mot de passe :  </div><input type="text" name="mdp" id="mdp" /></br>
+			<input name="submit" type="submit" value="bouiachaka"/>
+		</form>
+	</div>
 
 </body>
 </html>

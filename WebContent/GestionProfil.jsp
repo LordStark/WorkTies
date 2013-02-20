@@ -11,7 +11,7 @@
 	<%
 		String nom = request.getParameter("nom");
 		
-		profil.setNom(nom);
+		profil.getUtilisateur().setNom(nom);
 		
 	%>
 	<jsp:forward page= "/AfficherProfil.jsp"/>
