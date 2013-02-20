@@ -9,7 +9,6 @@
 <title>Créez votre profil! </title>
 </head>
 <body>
-	<%@ include file = "Head.html" %>
 	<form action="GestionProfil.jsp" method="GET">
 		Votre nom : <input type="text" name="nom" id="nom" /></br>
 		Votre prénom: <input type="text" name="prenom" id="prenom" /></br>

@@ -4,9 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>WorkTies</title>
 </head>
 <body>
-
+	<%@ include file = "Cadre/Head.html" %>
+	<%@ include file = "Switch.jsp" %>
+	<%@ include file = "Cadre/Foot.html" %>
 </body>
 </html>
