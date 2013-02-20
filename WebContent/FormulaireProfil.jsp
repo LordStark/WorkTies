@@ -4,9 +4,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel=stylesheet href="Head.css" type="text/css" />
+<link rel=stylesheet href="boostrap.css" type="text/css" />
 <title>Créez votre profil! </title>
 </head>
 <body>
+	<%@ include file = "Head.html" %>
 	<form action="GestionProfil.jsp" method="GET">
 		Votre nom : <input type="text" name="nom" id="nom" /></br>
 		Votre prénom: <input type="text" name="prenom" id="prenom" /></br>

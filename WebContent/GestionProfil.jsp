@@ -10,18 +10,9 @@
 	<jsp:useBean id="profil" scope="session" class="gestion_profil.Profil"/>
 	<%
 		String nom = request.getParameter("nom");
-		String prenom = request.getParameter("prenom");
-		String adresse = request.getParameter("adresse");
-		String annee = request.getParameter("anneeNaiss");
-		String mail = request.getParameter("mail");
-		String mdp = request.getParameter("mdp");
 		
-		profil.setAddr(adresse);
 		profil.setNom(nom);
-		profil.setPrenom(prenom);
-		profil.setAnneeNaissance(annee);
-		profil.setMail(mail);
-		profil.setMdp(mdp);
+		
 	%>
 	<jsp:forward page= "/AfficherProfil.jsp"/>
 </body>
